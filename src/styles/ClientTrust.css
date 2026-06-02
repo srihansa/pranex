@@ -1,0 +1,68 @@
+.client-section{
+  width:100%;
+  background:white;
+  padding:80px 60px;
+  text-align:center;
+}
+
+.client-section h2{
+  font-size:52px;
+  font-weight:700;
+  margin-bottom:15px;
+}
+
+.client-subtitle{
+  font-size:20px;
+  color:#666;
+  margin-bottom:60px;
+}
+
+.client-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:30px;
+}
+
+.client-card{
+  border:1px solid #ddd;
+  background:white;
+  text-align:left;
+}
+
+.client-header{
+  background:#066d9c;
+  padding:20px;
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.client-logo{
+  width:50px;
+  height:50px;
+  background:white;
+  color:#066d9c;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:bold;
+  font-size:18px;
+}
+
+.client-header h3{
+  color:white;
+  font-size:20px;
+  margin-bottom:5px;
+}
+
+.client-header span{
+  color:white;
+  font-size:14px;
+}
+
+.client-review{
+  padding:25px;
+  font-size:17px;
+  line-height:1.8;
+  color:#444;
+}

@@ -1,0 +1,58 @@
+.core-values{
+  width:100%;
+  background:white;
+  padding:80px 60px;
+  text-align:center;
+}
+
+.core-values h2{
+  font-size:58px;
+  font-weight:700;
+  margin-bottom:25px;
+}
+
+.core-subtitle{
+  max-width:900px;
+  margin:auto;
+  font-size:22px;
+  line-height:1.8;
+  color:#666;
+  margin-bottom:70px;
+}
+
+.core-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:35px;
+}
+
+.core-card{
+  border:1px solid #ddd;
+  padding:35px;
+  display:flex;
+  align-items:flex-start;
+  gap:25px;
+  text-align:left;
+}
+
+.core-icon{
+  width:65px;
+  height:65px;
+  background:#077095;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:28px;
+}
+
+.core-card h3{
+  font-size:34px;
+  margin-bottom:15px;
+}
+
+.core-card p{
+  font-size:19px;
+  line-height:1.8;
+  color:#555;
+}

@@ -1,0 +1,115 @@
+.contact-section {
+  padding: 90px 8%;
+  background: white;
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact-title h2 {
+  font-size: 52px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.contact-title p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.8;
+  max-width: 750px;
+  margin: auto;
+}
+
+.office-container {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.office-card {
+  flex: 1;
+  border: 1px solid #e2e2e2;
+  padding: 35px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.office-icon {
+  width: 60px;
+  height: 60px;
+  background: #006d8f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+
+.office-card h3 {
+  font-size: 34px;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.office-card p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.contact-info-container {
+  display: flex;
+  gap: 30px;
+}
+
+.info-card {
+  flex: 1;
+  border: 1px solid #e2e2e2;
+  padding: 40px 25px;
+  text-align: center;
+}
+
+.info-icon {
+  width: 60px;
+  height: 60px;
+  background: #111827;
+  color: white;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.info-card h4 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.info-card p {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+
+  .office-container,
+  .contact-info-container {
+    flex-direction: column;
+  }
+
+  .contact-title h2 {
+    font-size: 38px;
+  }
+
+  .office-card h3 {
+    font-size: 28px;
+  }
+}

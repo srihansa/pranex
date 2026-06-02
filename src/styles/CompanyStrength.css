@@ -1,0 +1,53 @@
+.company-strength{
+  width:100%;
+  background:white;
+  padding:80px 60px;
+  text-align:center;
+}
+
+.company-strength h2{
+  font-size:58px;
+  font-weight:700;
+  margin-bottom:18px;
+}
+
+.strength-subtitle{
+  font-size:22px;
+  color:#666;
+  margin-bottom:70px;
+}
+
+.strength-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:35px;
+}
+
+.strength-card{
+  border:1px solid #ddd;
+  padding:35px;
+  text-align:left;
+}
+
+.strength-icon{
+  width:65px;
+  height:65px;
+  background:#031321;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:28px;
+  margin-bottom:25px;
+}
+
+.strength-card h3{
+  font-size:34px;
+  margin-bottom:18px;
+}
+
+.strength-card p{
+  font-size:19px;
+  line-height:1.8;
+  color:#555;
+}

@@ -1,0 +1,59 @@
+.about-hero{
+  width:100%;
+  background:#031321;
+  color:white;
+  text-align:center;
+  padding:140px 20px;
+}
+
+.about-hero h1{
+  font-size:72px;
+  font-weight:700;
+  margin-bottom:30px;
+  color:white;
+}
+
+.about-hero p{
+  font-size:24px;
+  line-height:1.8;
+  max-width:900px;
+  margin:auto;
+  color:white;
+}
+
+.about-content{
+  width:100%;
+  background:white;
+  padding:90px 60px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:60px;
+}
+
+.about-left{
+  width:50%;
+}
+
+.about-left h2{
+  font-size:64px;
+  margin-bottom:35px;
+  color:black;
+}
+
+.about-left p{
+  font-size:22px;
+  line-height:1.9;
+  color:#555;
+  margin-bottom:30px;
+}
+
+.about-right{
+  width:45%;
+}
+
+.about-right img{
+  width:100%;
+  height:500px;
+  object-fit:cover;
+}

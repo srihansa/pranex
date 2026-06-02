@@ -1,0 +1,59 @@
+.service-details{
+  width:100%;
+  background:white;
+  padding:80px 60px;
+}
+
+.service-card{
+  border:1px solid #ddd;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  margin-bottom:40px;
+}
+
+.service-box{
+  padding:35px;
+  border-right:1px solid #ddd;
+}
+
+.service-box:last-child{
+  border-right:none;
+}
+
+.service-icon{
+  width:60px;
+  height:60px;
+  background:#077095;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:28px;
+  margin-bottom:25px;
+}
+
+.service-box h2{
+  font-size:38px;
+  margin-bottom:20px;
+}
+
+.service-box h3{
+  font-size:28px;
+  margin-bottom:20px;
+}
+
+.service-box p{
+  font-size:18px;
+  line-height:1.8;
+  color:#555;
+}
+
+.service-box ul{
+  padding-left:20px;
+}
+
+.service-box li{
+  margin-bottom:14px;
+  font-size:18px;
+  color:#555;
+}

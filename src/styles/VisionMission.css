@@ -1,0 +1,41 @@
+.vision-section{
+  width:100%;
+  background:#031321;
+  padding:80px 60px;
+}
+
+.vision-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:40px;
+}
+
+.vision-card{
+  border:1px solid rgba(255,255,255,0.1);
+  padding:45px;
+  background:rgba(255,255,255,0.02);
+}
+
+.vision-icon{
+  width:60px;
+  height:60px;
+  background:#066d9c;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:28px;
+  margin-bottom:30px;
+}
+
+.vision-card h2{
+  color:white;
+  font-size:48px;
+  margin-bottom:25px;
+}
+
+.vision-card p{
+  color:#d1d1d1;
+  font-size:22px;
+  line-height:1.8;
+}
