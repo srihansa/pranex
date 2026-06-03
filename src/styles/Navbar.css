@@ -37,3 +37,8 @@
 .nav-links a:hover{
   color:#0b6fa4;
 }
+
+.nav-links a.active{
+  color:#0b6fa4;
+  font-width:600;
+}
