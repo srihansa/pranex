@@ -19,15 +19,17 @@
 
 .services-grid{
   display:grid;
-  grid-template-columns:repeat(3, 1fr);
+  grid-template-columns:repeat(auto-fit, minmax(350px, 1fr));
   gap:35px;
+  width: 100%;
 }
 
 .service-card{
   background:white;
   padding:35px;
-  text-align:left;
   border:1px solid #ddd;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .icon{
@@ -45,10 +47,12 @@
 .service-card h3{
   font-size:32px;
   margin-bottom:20px;
+  word-break: normal;
 }
 
 .service-card p{
   font-size:18px;
   line-height:1.8;
   color:#555;
+  word-break: normal;
 }
