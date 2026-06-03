@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/About.css";
 import AboutVision from "../components/AboutVision";
-import CoreValues from "../components/Corevalues";
+import CoreValues from "../components/corevalues";
 import CompanyStrength from "../components/CompanyStrength";
 import AboutFooter from "../components/AboutFooter";
 import CareersFooter from "../components/CareersFooter";
@@ -72,7 +72,7 @@ function About() {
 
       </section>
       <AboutVision/>
-      <Corevalues />
+      <corevalues />
       <CompanyStrength />
       <CareersFooter/>
     
